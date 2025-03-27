@@ -5,6 +5,8 @@ export interface IUser extends Document {
   email: string;
   password: string;
   avatar?: string;
+  gender?: string;
+  roomLimit?: number;
   role?: "user" | "admin";
   createdAt?: Date;
   updatedAt?: Date;
@@ -25,6 +27,11 @@ const UserSchema: Schema = new Schema(
       unique: true,
       trim: true,
       lowercase: true,
+    },
+    gender: {
+      type: String,
+      enum: ["Nam", "Nữ", "Khác"],
+      default: "Khác",
     },
     password: { type: String, required: true },
     avatar: { type: String, default: "" },
