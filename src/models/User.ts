@@ -1,13 +1,13 @@
 import mongoose, { Schema, Document } from "mongoose";
-import bcrypt from "bcrypt-ts";
+import bcrypt from "bcrypt";
 export interface IUser extends Document {
   username: string;
   email: string;
   password: string;
   avatar?: string;
-  role: "user" | "admin";
-  createdAt: Date;
-  updatedAt: Date;
+  role?: "user" | "admin";
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const UserSchema: Schema = new Schema(
@@ -28,6 +28,7 @@ const UserSchema: Schema = new Schema(
     },
     password: { type: String, required: true },
     avatar: { type: String, default: "" },
+    roomLimit: { type: Number, default: 1 },
     role: { type: String, enum: ["user", "admin"], default: "user" },
   },
   {
