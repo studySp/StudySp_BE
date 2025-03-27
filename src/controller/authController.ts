@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import User from "../models/User";
 import bcrypt from "bcrypt";
+import UserProfile from "../models/UserProfile";
 export const login = async (req: Request, res: Response): Promise<void> => {
   const { username, password } = req.body;
   if (!username || !password) {
@@ -8,17 +9,27 @@ export const login = async (req: Request, res: Response): Promise<void> => {
     return;
   }
   try {
-    const user = await User.findOne({ username });
-    if (!user) {
+    const userFind = await User.findOne({ username });
+    if (!userFind) {
       res.status(404).json({ message: "User not found" });
       return;
     }
-    const isMatch = await bcrypt.compare(password, user.password);
+    const isMatch = await bcrypt.compare(password, userFind.password);
     if (!isMatch) {
       res.status(400).json({ message: "Invalid credentials" });
       return;
     }
-    res.status(200).json({ message: "Login successful", user });
+    const profile = await UserProfile.findOne({ userId: userFind._id });
+    res.status(200).json({
+      message: "Login successful",
+      user: {
+        username: userFind.username,
+        email: userFind.email,
+        avatar: userFind.avatar,
+        role: userFind.role,
+        profile,
+      },
+    });
   } catch (err: any) {
     res
       .status(500)
@@ -38,9 +49,12 @@ export const register = async (req: Request, res: Response): Promise<void> => {
       email,
       password,
     });
+    const profile = await UserProfile.create({
+      userId: newUser._id,
+    });
     res
       .status(201)
-      .json({ message: "User created successfully", user: newUser });
+      .json({ message: "User created successfully", user: newUser, profile });
   } catch (err: any) {
     res
       .status(500)
