@@ -26,9 +26,11 @@ io.on("connection", (socket: any) => {
     }
     userSocketMap[userId] = socket.id;
   }
-  io.on("joinRoom", (roomId: string, userId: string) => {
+  socket.on("joinRoom", (roomId: string, userId: string) => {
+    console.log("user-join", roomId, userId);
     socket.join(roomId);
     socket.to(roomId).emit("user-connected", userId);
+
     socket.on("disconnect", () => {
       socket.to(roomId).emit("user-disconnected", userId);
     });
