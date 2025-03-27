@@ -10,6 +10,7 @@ export interface IUser extends Document {
   role?: "user" | "admin";
   createdAt?: Date;
   updatedAt?: Date;
+  status?: boolean;
 }
 
 const UserSchema: Schema = new Schema(
@@ -37,6 +38,8 @@ const UserSchema: Schema = new Schema(
     avatar: { type: String, default: "" },
     roomLimit: { type: Number, default: 1 },
     role: { type: String, enum: ["user", "admin"], default: "user" },
+    status: { type: Boolean, default: true },
+    createdAt: { type: Date, default: Date.now }, 
   },
   {
     timestamps: true,
