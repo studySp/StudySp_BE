@@ -22,13 +22,18 @@ export const login = async (req: Request, res: Response): Promise<void> => {
     const profile = await UserProfile.findOne({ userId: userFind._id });
     res.status(200).json({
       message: "Login successful",
-      user: {
-        username: userFind.username,
-        email: userFind.email,
-        avatar: userFind.avatar,
+      data: {
+        user: {
+          userName: userFind.username,
+          email: userFind.email,
+          password: userFind.password,
+          avatar: userFind.avatar,
+          role: userFind.role,
+        },
+        dayOfBirth: profile?.dayOfBirth || "",
+        bio: profile?.bio,
+        nickname: profile?.nickname,
         gender: userFind.gender,
-        role: userFind.role,
-        profile,
       },
     });
   } catch (err: any) {

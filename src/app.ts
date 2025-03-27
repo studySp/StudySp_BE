@@ -8,6 +8,7 @@ import { errorHandler, ErrorType } from "./middlewares/errorHandler";
 //import route
 import authRoute from "./routes/authRoute";
 import userProfileRoute from "./routes/userProfileRoute";
+import roomRoute from "./routes/roomRoute";
 import { app, server } from "./config/index";
 import connectDB from "./db/index";
 const port = process.env.APP_PORT || 6060;
@@ -18,6 +19,7 @@ connectDB();
 const prefix = "/api/v1";
 app.use(`${prefix}/auth`, authRoute);
 app.use(`${prefix}/profile`, userProfileRoute);
+app.use(`${prefix}/room`, roomRoute);
 
 //error caching
 app.all("*", (req, res, next) => {

@@ -33,6 +33,12 @@ export const createRoom = async (
     res.status(400).json({ message: "All fields are required" });
     return;
   }
+  const isLimit = await Room.find({ author }).countDocuments();
+  if (isLimit >= 1) {
+    res.status(400).json({ message: "Room limit exceeded" });
+    return;
+  }
+
   try {
     const newRoom = await Room.create({
       title,
@@ -75,4 +81,31 @@ export const updateOptions = async (
       .status(500)
       .json({ message: "Something went wrong", error: err.message });
   }
+};
+interface IRoom {
+  title: string;
+  author: string;
+  isPrivate: boolean;
+  allowCamera: boolean;
+  allowMic: boolean;
+  hasPassword: boolean;
+  tag: string;
+  password: string;
+}
+
+export const getRoomById = async (roomId: string): Promise<IRoom> => {
+  const room = await Room.findById(roomId).populate("author").lean();
+  if (!room) {
+    throw new Error("Room not found");
+  }
+  return {
+    title: room.title,
+    author: room.author?.username || "",
+    isPrivate: room.isPrivate,
+    allowCamera: room.allowCamera,
+    allowMic: room.allowMic,
+    hasPassword: room.hasPassword,
+    tag: room.tag,
+    password: room.password,
+  };
 };

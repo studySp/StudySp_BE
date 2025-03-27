@@ -1,10 +1,11 @@
 import mongoose, { Schema, Document } from "mongoose";
 export interface IRoom extends Document {
   title: string;
-  author: string;
+  author: any;
   isPrivate: boolean;
   allowCamera: boolean;
   allowMic: boolean;
+  tag: string;
   hasPassword: boolean;
   password: string;
 }

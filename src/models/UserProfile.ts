@@ -4,7 +4,7 @@ export interface IUserProfile extends Document {
   userId: Types.ObjectId;
   bio?: string;
   nickname?: string;
-  dob?: Date;
+  dayOfBirth?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -19,7 +19,7 @@ const UserProfileSchema: Schema = new Schema(
     },
     bio: { type: String },
     nickname: { type: String },
-    dob: { type: Date },
+    dayOfBirth: { type: String },
   },
   {
     timestamps: true,
