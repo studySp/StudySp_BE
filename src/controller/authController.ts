@@ -24,6 +24,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
       message: "Login successful",
       data: {
         user: {
+          id: userFind._id,
           userName: userFind.username,
           email: userFind.email,
           password: userFind.password,
