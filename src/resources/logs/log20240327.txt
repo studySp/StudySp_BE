@@ -1,0 +1,10 @@
+[2025-03-27 10:00:01] INFO    - Server started successfully.
+[2025-03-27 10:05:23] WARNING - High memory usage detected.
+[2025-03-27 10:10:45] ERROR   - Database connection failed.
+[2025-03-27 10:15:32] INFO    - New user registered: user123.
+[2025-03-27 10:20:18] ERROR   - Failed to send email notification.
+[2025-03-27 10:25:50] INFO    - Backup completed successfully.
+[2025-03-27 10:30:05] WARNING - Disk space running low.
+[2025-03-27 10:35:42] INFO    - Scheduled maintenance started.
+[2025-03-27 10:40:30] ERROR   - Unauthorized access attempt detected.
+[2025-03-27 10:45:15] INFO    - System reboot completed.

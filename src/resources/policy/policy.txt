@@ -1,0 +1,100 @@
+1. Tất cả người dùng phải tuân thủ điều khoản sử dụng dịch vụ.
+2. Không chia sẻ thông tin cá nhân với bên thứ ba mà không có sự đồng ý.
+3. Mọi hành vi gian lận sẽ bị xử lý theo quy định.
+4. Người dùng có trách nhiệm bảo mật tài khoản cá nhân.
+5. Không được phát tán nội dung vi phạm pháp luật.
+6. Hệ thống có quyền tạm ngừng tài khoản nếu phát hiện hành vi bất thường.
+7. Dữ liệu người dùng sẽ được bảo mật theo quy định bảo vệ dữ liệu.
+8. Không được sử dụng dịch vụ cho mục đích bất hợp pháp.
+9. Tất cả giao dịch tài chính phải được xác minh trước khi xử lý.
+10. Người dùng chịu trách nhiệm về nội dung mình đăng tải.
+11. Hệ thống không chịu trách nhiệm về nội dung do người dùng tạo ra.
+12. Các tài khoản vi phạm nhiều lần sẽ bị khóa vĩnh viễn.
+13. Người dùng có quyền yêu cầu xóa dữ liệu cá nhân.
+14. Chúng tôi có quyền cập nhật chính sách mà không cần thông báo trước.
+15. Không được sử dụng phần mềm bên thứ ba để can thiệp hệ thống.
+16. Không chia sẻ tài khoản với người khác.
+17. Nội dung độc hại sẽ bị xóa ngay lập tức.
+18. Không sử dụng từ ngữ thô tục hoặc gây kích động.
+19. Hệ thống sẽ lưu trữ dữ liệu trong vòng 12 tháng.
+20. Người dùng có quyền yêu cầu hỗ trợ khi gặp sự cố.
+21. Không giả mạo danh tính của người khác.
+22. Mọi yêu cầu hỗ trợ phải thông qua kênh chính thức.
+23. Không sử dụng hệ thống để gửi thư rác.
+24. Tài khoản bị tấn công có thể bị khóa tạm thời để bảo vệ.
+25. Người dùng có trách nhiệm sao lưu dữ liệu quan trọng.
+26. Tất cả báo cáo vi phạm sẽ được xử lý trong vòng 48 giờ.
+27. Không lợi dụng hệ thống để trục lợi cá nhân.
+28. Chính sách bảo mật có thể thay đổi theo yêu cầu pháp lý.
+29. Hệ thống có quyền từ chối dịch vụ trong một số trường hợp.
+30. Người dùng phải chịu trách nhiệm về các khoản phí phát sinh.
+31. Không được khai thác lỗ hổng bảo mật của hệ thống.
+32. Bất kỳ hành động phá hoại nào sẽ bị xử lý nghiêm khắc.
+33. Không quảng cáo trái phép trên nền tảng.
+34. Tất cả nội dung phải tuân thủ luật pháp địa phương.
+35. Không tải lên nội dung có bản quyền nếu không được phép.
+36. Hệ thống không chịu trách nhiệm về lỗi do người dùng gây ra.
+37. Người dùng không được phép thay đổi cấu trúc hệ thống.
+38. Chính sách hoàn tiền sẽ được áp dụng theo từng trường hợp.
+39. Người dùng không được phép tạo tài khoản ảo để trục lợi.
+40. Không sử dụng nội dung của người khác nếu không có sự cho phép.
+41. Dữ liệu người dùng sẽ không bị bán cho bên thứ ba.
+42. Không đăng tải thông tin sai lệch hoặc gây hiểu lầm.
+43. Hệ thống có thể yêu cầu xác minh danh tính nếu cần thiết.
+44. Không được lợi dụng lỗ hổng bảo mật để trục lợi.
+45. Người dùng phải cung cấp thông tin chính xác khi đăng ký.
+46. Không tiết lộ thông tin cá nhân của người khác mà không có sự đồng ý.
+47. Các vi phạm có thể bị xử lý theo quy định của pháp luật.
+48. Hệ thống không chịu trách nhiệm về hành vi của người dùng.
+49. Người dùng không được tấn công hệ thống dưới mọi hình thức.
+50. Nội dung vi phạm có thể bị gỡ xuống mà không cần báo trước.
+51. Không được phép bán lại tài khoản hoặc dịch vụ của hệ thống.
+52. Chính sách bảo mật sẽ được cập nhật định kỳ.
+53. Hệ thống có quyền thu hồi tài khoản nếu phát hiện vi phạm.
+54. Người dùng có thể yêu cầu xem xét lại các quyết định xử lý.
+55. Không lợi dụng chính sách hoàn tiền để gian lận.
+56. Tất cả phản hồi của người dùng sẽ được xem xét cẩn thận.
+57. Người dùng phải chấp nhận các thay đổi trong điều khoản sử dụng.
+58. Không được phép sử dụng hệ thống cho hoạt động phi pháp.
+59. Nội dung không phù hợp sẽ bị gỡ bỏ ngay lập tức.
+60. Không gửi tin nhắn spam hoặc quảng cáo trái phép.
+61. Không lợi dụng hệ thống để phát tán virus hoặc phần mềm độc hại.
+62. Mọi tranh chấp sẽ được giải quyết theo quy trình nội bộ.
+63. Hệ thống có quyền thu thập dữ liệu để cải thiện dịch vụ.
+64. Không sử dụng bot hoặc script để thao túng hệ thống.
+65. Người dùng phải cung cấp thông tin hợp lệ khi yêu cầu hỗ trợ.
+66. Các giao dịch tài chính phải tuân thủ quy định ngân hàng.
+67. Không giả mạo nhân viên của hệ thống.
+68. Người dùng có trách nhiệm bảo vệ thông tin cá nhân của mình.
+69. Không chia sẻ nội dung nhạy cảm mà không có sự đồng ý.
+70. Không sử dụng hình ảnh hoặc video vi phạm bản quyền.
+71. Hệ thống có thể áp dụng các biện pháp bảo vệ bổ sung khi cần thiết.
+72. Không chia sẻ mật khẩu với người khác.
+73. Người dùng phải cập nhật phần mềm để bảo đảm an toàn.
+74. Không tiết lộ thông tin bảo mật của hệ thống.
+75. Không tạo tài khoản trùng lặp để gian lận.
+76. Nội dung khiếu nại sẽ được xem xét trong vòng 7 ngày làm việc.
+77. Không tung tin đồn hoặc thông tin sai lệch.
+78. Không sử dụng hệ thống để lừa đảo người khác.
+79. Tất cả dữ liệu cá nhân được xử lý theo quy định bảo mật.
+80. Người dùng có thể yêu cầu xóa tài khoản bất kỳ lúc nào.
+81. Không sử dụng hệ thống để gửi thư rác hoặc tin nhắn hàng loạt.
+82. Không sử dụng hệ thống để truyền tải nội dung vi phạm pháp luật.
+83. Hệ thống có quyền kiểm tra tài khoản nếu có dấu hiệu gian lận.
+84. Người dùng phải chấp nhận mọi chính sách trước khi sử dụng.
+85. Không sử dụng hệ thống để thực hiện hành vi lừa đảo.
+86. Không chia sẻ thông tin đăng nhập với bên thứ ba.
+87. Tài khoản bị khóa có thể được mở lại sau khi xác minh.
+88. Người dùng không được giả danh tổ chức hoặc cá nhân khác.
+89. Không cung cấp thông tin sai sự thật trong hồ sơ cá nhân.
+90. Người dùng có thể yêu cầu báo cáo hoạt động tài khoản.
+91. Mọi hình thức gian lận sẽ bị xử lý nghiêm khắc.
+92. Không tiết lộ thông tin tài chính mà không có sự đồng ý.
+93. Người dùng có thể liên hệ hỗ trợ nếu gặp sự cố bảo mật.
+94. Không sử dụng hệ thống để tấn công mạng hoặc xâm nhập trái phép.
+95. Hệ thống có thể giới hạn quyền truy cập nếu phát hiện vi phạm.
+96. Người dùng có quyền báo cáo các hành vi vi phạm.
+97. Không sử dụng hệ thống để quảng cáo sản phẩm không liên quan.
+98. Nội dung có tính chất khiêu dâm hoặc bạo lực sẽ bị gỡ bỏ.
+99. Người dùng chịu trách nhiệm về tất cả hành động trên tài khoản.
+100. Tao đã edit
