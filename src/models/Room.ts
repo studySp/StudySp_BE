@@ -20,6 +20,9 @@ const RoomSchema: Schema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "User",
     },
+    tag: {
+      type: String,
+    },
     isPrivate: { type: Boolean, default: false },
     allowCamera: { type: Boolean, default: true },
     allowMic: { type: Boolean, default: true },
