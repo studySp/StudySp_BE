@@ -12,7 +12,7 @@ import roomRoute from "./routes/roomRoute";
 import adminRoute from "./routes/adminRoute";
 import { app, server } from "./config/index";
 import connectDB from "./db/index";
-const port = process.env.APP_PORT || 6060;
+const port = process.env.APP_PORT || 6061;
 
 app.use(cors());
 app.use(express.json());

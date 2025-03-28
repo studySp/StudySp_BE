@@ -6,7 +6,7 @@ export const getOptions = async (
   res: Response
 ): Promise<void> => {
   const roomId = req.params.roomId;
-  const room = Room.findById(roomId).populate("author").lean();
+  const room = await Room.findById(roomId).populate("author").lean();
 
   if (!room) {
     res.status(404).json({ message: "Room not found" });
@@ -63,7 +63,21 @@ export const createRoom = async (
 export const getRoomSubjects = async (
   req: Request,
   res: Response
-): Promise<void> => {};
+): Promise<void> => {
+  const room = await Room.findById(req.params.roomId).populate("author").lean();
+  if (!room) {
+    res.status(404).json({ message: "Room not found" });
+    return;
+  }
+  res.status(200).json({
+    roomId: room._id,
+    isPrivate: room.isPrivate,
+    allowCamera: room.allowCamera,
+    allowMic: room.allowMic,
+    hasPassword: room.hasPassword,
+    password: room.password,
+  });
+};
 
 export const updateOptions = async (
   req: Request,
